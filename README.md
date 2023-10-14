@@ -66,4 +66,4 @@ The model achieved high precision, recall, accuracy, IoU, and F1 scores on the t
 Saliency maps and learned filter visualization provide insights into model behavior and feature detection.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/LICENSE).
