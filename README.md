@@ -11,6 +11,10 @@
 ## Key Features
 
   - UNet-based deep learning model for left ventricle regional wall segmentation.
+
+    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/my_UNet.png)
+
+    
   - Implementation and comparison of two loss functions: Dice Loss and Focal Tversky Loss.
   - Visualization of saliency maps to understand model attention.
   - Visualization of learned filters in convolutional layers for feature analysis.
