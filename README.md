@@ -26,29 +26,30 @@ This project employed a convolutional neural network (CNN) based on the UNet arc
 
 The architecture comprises several key components:
 
-    - Downsample Path: This path includes convolutional layers with ReLU activation functions for feature extraction and down-sampling via max-pooling operations.
+  - Downsample Path: This path includes convolutional layers with ReLU activation functions for feature extraction and down-sampling via max-pooling operations.
 
-    - Bottleneck: A bottleneck layer that further extracts and consolidates features.
+  - Bottleneck: A bottleneck layer that further extracts and consolidates features.
 
-    - Upsample Path: The upsample path employs transposed convolutional layers for feature expansion and up-sampling.
+  - Upsample Path: The upsample path employs transposed convolutional layers for feature expansion and up-sampling.
+   ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/my_UNet.png)
 
-    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/my_UNet.png)
+  - Loss Function: Two loss functions were evaluated: Dice Loss and Focal Tversky Loss. Hyperparameter tuning was conducted to select the best-performing loss function.
+  Dice Loss
+  ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_Loss.png)
+  ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_L.png)
 
-    - Loss Function: Two loss functions were evaluated: Dice Loss and Focal Tversky Loss. Hyperparameter tuning was conducted to select the best-performing loss function.
-    Dice Loss
-    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_Loss.png)
-    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_L.png)
-
-    Focal Tversky Loss
-    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_Loss.png)
-    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_L.png)
+  Focal Tversky Loss
+  ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_Loss.png)
+  ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_L.png)
 
 
 ## Training and Evaluation
 
 The model was trained using a combination of training and validation datasets. During training, several evaluation metrics were monitored.
+
     Dice coefficient, IoU, Accuracy
     Precision, Recall, F1 score
+
 
 ## Saliency Maps and Filter Visualization
 
