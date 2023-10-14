@@ -34,11 +34,14 @@ The architecture comprises several key components:
    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/my_UNet.png)
 
   - Loss Function: Two loss functions were evaluated: Dice Loss and Focal Tversky Loss. Hyperparameter tuning was conducted to select the best-performing loss function.
+    
   Dice Loss
+
   ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_Loss.png)
   ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_L.png)
 
   Focal Tversky Loss
+  
   ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_Loss.png)
   ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_L.png)
 
