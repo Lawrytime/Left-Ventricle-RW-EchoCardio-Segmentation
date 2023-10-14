@@ -2,19 +2,15 @@
 
 ## Overview
 
-**This repository contains the code and resources for a deep learning project aimed at automating the segmentation of the left ventricle's regional wall in 2D apical-4-chamber (A4C) echocardiography recordings. Accurate segmentation of the left ventricle is crucial in the field of cardiology for assessing cardiac health and function.**
+This repository contains the code and resources for a deep learning project aimed at automating the segmentation of the left ventricle's regional wall in 2D apical-4-chamber (A4C) echocardiography recordings. Accurate segmentation of the left ventricle is crucial in the field of cardiology for assessing cardiac health and function.
 
 
-**The project leverages the UNet architecture, a popular choice for medical image segmentation tasks. It explores the use of two different loss functions, Dice Loss and Focal Tversky Loss, for optimizing the model's performance. Additionally, the project includes visualization techniques, such as saliency maps and learned filter visualization, to gain insights into the model's internal representations and attention patterns.**
+The project leverages the UNet architecture, a popular choice for medical image segmentation tasks. It explores the use of two different loss functions, Dice Loss and Focal Tversky Loss, for optimizing the model's performance. Additionally, the project includes visualization techniques, such as saliency maps and learned filter visualization, to gain insights into the model's internal representations and attention patterns.
 
 
 ## Key Features
 
-  - UNet-based deep learning model for left ventricle regional wall segmentation.
-
-    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/my_UNet.png)
-
-    
+  - UNet-based deep learning model for left ventricle regional wall segmentation.    
   - Implementation and comparison of two loss functions: Dice Loss and Focal Tversky Loss.
   - Visualization of saliency maps to understand model attention.
   - Visualization of learned filters in convolutional layers for feature analysis.
@@ -24,15 +20,39 @@
 
 The project utilizes the HMC-QU Dataset of 2D A4C echocardiography recordings available at [HMC-QU Dataset](https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset?select=LV+Ground-truth+Segmentation+Masks). It is essential to ensure that all patient details in the dataset have been anonymized to protect privacy and comply with ethical guidelines.
 
-## Getting Started
+## Model Architecture
 
-To replicate or build upon this project, follow these steps:
+This project employed a convolutional neural network (CNN) based on the UNet architecture. UNet is known for its effectiveness in image segmentation tasks and has been customized to suit the specific requirements as this task is semantic segmentation on video data.
 
-Clone this repository to your local machine.
-Set up your Python environment with the required dependencies (listed in requirements.txt).
-Explore the Jupyter notebooks provided in the notebooks directory for model training and evaluation.
-Customize hyperparameters, loss functions, and visualization as needed for your specific task.
+The architecture comprises several key components:
 
+    - Downsample Path: This path includes convolutional layers with ReLU activation functions for feature extraction and down-sampling via max-pooling operations.
+
+    - Bottleneck: A bottleneck layer that further extracts and consolidates features.
+
+    - Upsample Path: The upsample path employs transposed convolutional layers for feature expansion and up-sampling.
+
+    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/my_UNet.png)
+
+    - Loss Function: Two loss functions were evaluated: Dice Loss and Focal Tversky Loss. Hyperparameter tuning was conducted to select the best-performing loss function.
+    Dice Loss
+    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_Loss.png)
+    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Dice_L.png)
+
+    Focal Tversky Loss
+    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_Loss.png)
+    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_L.png)
+
+
+## Training and Evaluation
+
+The model was trained using a combination of training and validation datasets. During training, several evaluation metrics were monitored.
+    Dice coefficient, IoU, Accuracy
+    Precision, Recall, F1 score
+
+## Saliency Maps and Filter Visualization
+
+In addition to segmentation, saliency maps were generated to visualize the model's attention patterns on the regional walls of the left ventricle. Furthermore, learned filters in convolutional layers were visualized to understand the model's feature detection capabilities.
 
 ## Results
 
