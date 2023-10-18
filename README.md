@@ -15,7 +15,7 @@ The project leverages the UNet architecture, a popular choice for medical image 
   - UNet-based deep learning model for left ventricle regional wall segmentation.    
   - Implementation and comparison of two loss functions: Dice Loss and Focal Tversky Loss.
   - Visualization of saliency maps to understand model attention.
-  - Visualization of learned filters in convolutional layers for feature analysis.
+  - Visualization of learned filters in convolutional layers for feature analysis
 
 
 ## Dataset
