@@ -62,6 +62,8 @@ The model was trained using a combination of training and validation datasets. D
 The model achieved high precision, recall, accuracy, IoU, and F1 scores on the test dataset, indicating robust segmentation performance.
 Saliency maps and learned filter visualization provide insights into model behavior and feature detection.
 
+![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Segmentations/Segmentation%20with%20Dice%20Loss.png)
+
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Segmentations/Segmentation%20with%20Focal%20Tversky%20Loss.png)
 
 
