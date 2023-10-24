@@ -57,6 +57,10 @@ The model was trained using a combination of training and validation datasets. D
     Precision, Recall, F1 score
 
 
+## Results
+
+The model achieved high precision, recall, accuracy, IoU, and F1 scores on the test dataset, indicating robust segmentation performance.
+Saliency maps and learned filter visualization provide insights into model behavior and feature detection.
 
 
 ## Saliency Maps and Filter Visualization
@@ -65,11 +69,6 @@ In addition to segmentation, saliency maps were generated to visualize the model
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Saliency%20Maps.png)
 
 
-
-## Results
-
-The model achieved high precision, recall, accuracy, IoU, and F1 scores on the test dataset, indicating robust segmentation performance.
-Saliency maps and learned filter visualization provide insights into model behavior and feature detection.
 
 ## License
 This project is licensed under the [MIT License](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/LICENSE).
