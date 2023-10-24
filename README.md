@@ -64,6 +64,8 @@ Saliency maps and learned filter visualization provide insights into model behav
 
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Segmentations/Segmentation%20with%20Dice%20Loss.png)
 
+##
+
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Segmentations/Segmentation%20with%20Focal%20Tversky%20Loss.png)
 
 
