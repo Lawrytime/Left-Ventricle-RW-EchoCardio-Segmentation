@@ -13,7 +13,6 @@ The project leverages the UNet architecture, a popular choice for medical image 
 
 
 
-
 ## Key Features
 
   - UNet-based deep learning model for left ventricle regional wall segmentation.    
