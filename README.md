@@ -80,7 +80,6 @@ In addition to segmentation, saliency maps were generated to visualize the model
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Saliency%20Maps.png)
 
 
-
 ## License
 This project is licensed under the [MIT License](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/LICENSE).
 
