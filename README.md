@@ -3,6 +3,8 @@
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/LV_Segmentation_Intro.jpg)
 
 
+##
+
 
 ## Overview
 
@@ -11,6 +13,7 @@ This repository contains the code and resources for a deep learning project aime
 
 The project leverages the UNet architecture, a popular choice for medical image segmentation tasks. It explores the use of two different loss functions, Dice Loss and Focal Tversky Loss, for optimizing the model's performance. Additionally, the project includes visualization techniques, such as saliency maps and learned filter visualization, to gain insights into the model's internal representations and attention patterns.
 
+##
 
 ## Key Features
 
@@ -23,6 +26,8 @@ The project leverages the UNet architecture, a popular choice for medical image 
 ## Dataset
 
 The project utilizes the HMC-QU Dataset of 2D A4C echocardiography recordings available at [HMC-QU Dataset](https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset?select=LV+Ground-truth+Segmentation+Masks). It is essential to ensure that all patient details in the dataset have been anonymized to protect privacy and comply with ethical guidelines.
+
+##
 
 ## Model Architecture
 
@@ -52,6 +57,7 @@ The architecture comprises several key components:
   
   ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_L.png)
 
+##
 
 ## Training and Evaluation
 
@@ -60,6 +66,7 @@ The model was trained using a combination of training and validation datasets. D
     Dice coefficient, IoU, Accuracy
     Precision, Recall, F1 score
 
+##
 
 ## Results
 
@@ -80,8 +87,11 @@ Saliency maps and learned filter visualization provide insights into model behav
 In addition to segmentation, saliency maps were generated to visualize the model's attention patterns on the regional walls of the left ventricle. Furthermore, learned filters in convolutional layers were visualized to understand the model's feature detection capabilities.
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Saliency%20Maps.png)
 
+##
 
 ## License
 This project is licensed under the [MIT License](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/LICENSE).
+
+##
 
 ## UWL AI
