@@ -9,9 +9,9 @@
 
 ## Content
 - [Overview](#overview)
-- [Key Features](#overview)
-- [Dataset](#overview)
-- [Model Architecture](#overview)
+- [Key Features](#Key)
+- [Dataset](#Dataset)
+- [Model Architecture](#Model-Architecture)
 
 
 
