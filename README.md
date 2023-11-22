@@ -14,7 +14,7 @@
 - [Model Architecture](#model-architecture)
 - [Training and Evaluation](#training-and-evaluation)
 - [Results](#results)
-- [Saliency Maps](#saliency-maps-and-filter-visualization)
+- [Saliency Maps](#saliency-maps)
 
 
 ##  
@@ -95,7 +95,7 @@ Saliency maps and learned filter visualization provide insights into model behav
 ##  
 
 
-## Saliency Maps and Filter Visualization
+## Saliency Maps
 
 In addition to segmentation, saliency maps were generated to visualize the model's attention patterns on the regional walls of the left ventricle. Furthermore, learned filters in convolutional layers were visualized to understand the model's feature detection capabilities.
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Saliency%20Maps.png)
