@@ -24,6 +24,7 @@ This repository contains the code and resources for a deep learning project aime
 
 The project leverages the UNet architecture, a popular choice for medical image segmentation tasks. It explores the use of two different loss functions, Dice Loss and Focal Tversky Loss, for optimizing the model's performance. Additionally, the project includes visualization techniques, such as saliency maps and learned filter visualization, to gain insights into the model's internal representations and attention patterns.
 
+
 ##  
 
 ## Key Features
