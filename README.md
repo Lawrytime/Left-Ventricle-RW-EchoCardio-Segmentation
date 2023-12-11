@@ -20,7 +20,6 @@
 
 
 
-
 ## Overview
 
 This repository contains the code and resources for a deep learning project aimed at automating the segmentation of the left ventricle's regional wall in 2D apical-4-chamber (A4C) echocardiography recordings. Accurate segmentation of the left ventricle is crucial in the field of cardiology for assessing cardiac health and function.
