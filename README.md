@@ -4,7 +4,6 @@
 
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/LV_Segmentation_Intro.jpg)
 
-
 ## 
 
 ## Content
