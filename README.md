@@ -71,6 +71,7 @@ The architecture comprises several key components:
   
   ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/Focal_Tversky_L.png)
 
+
 ##  
 
 ## Training and Evaluation
