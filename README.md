@@ -1,5 +1,15 @@
 # Left Ventricle Regional Wall Segmentation on Apical-4-Chamber (A4C) View 2D Echocardiography Recordings
 
+
+
+
+
+
+
+
+
+
+
 ##  
 
 ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/LV_Segmentation_Intro.jpg)
