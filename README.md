@@ -51,7 +51,7 @@ The architecture comprises several key components:
 
   - Downsample Path: This path includes convolutional layers with ReLU activation functions for feature extraction and down-sampling via max-pooling operations.
 
-  - Bottleneck: A bottleneck layer that further extracts and consolidates features.
+  - 
 
   - Upsample Path: The upsample path employs transposed convolutional layers for feature expansion and up-sampling.
    ![](https://github.com/Lawrytime/Left-Ventricle-RW-EchoCardio-Segmentation/blob/main/assets/my_UNet.png)
