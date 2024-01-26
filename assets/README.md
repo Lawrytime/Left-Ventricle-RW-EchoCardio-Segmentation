@@ -1,6 +1,6 @@
 ## Segmentations 
-Frames 
-Masks
+  - Frames
+  - Masks
 
 ## U-Net Architecture
 
