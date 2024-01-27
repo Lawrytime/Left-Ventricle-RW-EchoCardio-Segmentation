@@ -2,5 +2,5 @@ This section contains:
    - Saliency Maps 
    - Segmentations with Dice Loss
    - Segmentation with Focal Tversky Loss
-   - Receptive Fields
+   - UNET's Receptive Fields
    
