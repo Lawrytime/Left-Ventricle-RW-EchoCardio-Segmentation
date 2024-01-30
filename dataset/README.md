@@ -8,3 +8,7 @@ Dataset available here: [HMC-QU](https://www.kaggle.com/datasets/aysendegerli/hm
 **The spatial resolution varies from 422x636 to 768x1024 pixels.**
 
 **The dataset can be utilized for both myocardial infarction (heart attack) detection and left ventricle wall segmentation purposes. The later is the case here.**
+
+## Segmentation of the Left Ventricle Wall
+
+**A subset of 109 A4C view echocardiography recordings has their corresponding ground-truth segmentation masks for the whole left ventricle wall at each frame for one cardiac cycle. This subset includes 72 MI patients and 37 non-MI subjects.**
