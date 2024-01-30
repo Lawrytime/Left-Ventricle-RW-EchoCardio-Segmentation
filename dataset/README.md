@@ -1,4 +1,4 @@
-Dataset available here: [HMC-QU](https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset?select=LV+Ground-truth+Segmentation+Masks)
+## Dataset available here: [HMC-QU](https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset?select=LV+Ground-truth+Segmentation+Masks)
 
 
 **The benchmark dataset is created by the collaboration between Hamad Medical Corporation (HMC), Tampere University, and Qatar University.**
@@ -9,6 +9,8 @@ Dataset available here: [HMC-QU](https://www.kaggle.com/datasets/aysendegerli/hm
 
 **The dataset can be utilized for both myocardial infarction (heart attack) detection and left ventricle wall segmentation purposes. The later is the case here.**
 
-## Segmentation of the Left Ventricle Wall
+## Segmentation of the Left Ventricle Wall 
 
 **A subset of 109 A4C view echocardiography recordings has their corresponding ground-truth segmentation masks for the whole left ventricle wall at each frame for one cardiac cycle. This subset includes 72 MI patients and 37 non-MI subjects.**
+
+**The size of the ground-truth segmentation masks is 224x224 in order to have suitable input dimensions for many state-of-the-art deep network topologies.**
