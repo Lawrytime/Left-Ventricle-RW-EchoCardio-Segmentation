@@ -9,6 +9,12 @@
 
 **The dataset can be utilized for both myocardial infarction (heart attack) detection and left ventricle wall segmentation purposes. The later is the case here.**
 
+
+1.1. Apical 4-chamber
+
+The dataset consists of 162 A4C view 2D echocardiography recordings.
+
+
 ## Segmentation of the Left Ventricle Wall 
 
 **A subset of 109 A4C view echocardiography recordings has their corresponding ground-truth segmentation masks for the whole left ventricle wall at each frame for one cardiac cycle. This subset includes 72 MI patients and 37 non-MI subjects.**
