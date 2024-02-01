@@ -1,4 +1,4 @@
-## Segmentations (Data + Predictions)
+## Segmentations (Data)
   - Frames
   - Masks
 
@@ -9,5 +9,7 @@
 ## Loss Functions
   - Dice Loss
   - Focal Tversky Loss
+
+## Segmentations (Predictions)
 
 ## Saliency Maps
