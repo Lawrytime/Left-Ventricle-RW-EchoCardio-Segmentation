@@ -4,6 +4,8 @@
 
 ## U-Net Architecture
 
+## Receptive Fields
+
 ## Loss Functions
   - Dice Loss
   - Focal Tversky Loss
