@@ -11,7 +11,7 @@
 
   - Apical 4-chamber
 
-The dataset consists of 162 A4C view 2D echocardiography recordings.
+      The dataset consists of 162 A4C view 2D echocardiography recordings.
 
   - Apical 2-chamber
 
