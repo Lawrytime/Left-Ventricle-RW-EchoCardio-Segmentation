@@ -15,7 +15,7 @@
 
   - Apical 2-chamber
 
-The dataset consists of 160 A2C view 2D echocardiography recordings.
+      - The dataset consists of 160 A2C view 2D echocardiography recordings.
 
 
 ## Segmentation of the Left Ventricle Wall 
