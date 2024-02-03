@@ -23,3 +23,5 @@
 **A subset of 109 A4C view echocardiography recordings has their corresponding ground-truth segmentation masks for the whole left ventricle wall at each frame for one cardiac cycle. This subset includes 72 MI patients and 37 non-MI subjects.**
 
 **The size of the ground-truth segmentation masks is 224x224 in order to have suitable input dimensions for many state-of-the-art deep network topologies.**
+
+### References
