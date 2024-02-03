@@ -24,6 +24,8 @@
 
 **The size of the ground-truth segmentation masks is 224x224 in order to have suitable input dimensions for many state-of-the-art deep network topologies.**
 
+##  
+
 ### References:
 A. Degerli, S. Kiranyaz, T. Hamid, R. Mazhar, and M. Gabbouj, “Early Myocardial Infarction Detection over Multi-view Echocardiography,” Biomedical Signal Processing and Control, vol. 87, 2024, https://doi.org/10.1016/j.bspc.2023.105448.
 I. Adalioglu, M. Ahishali, A. Degerli, S. Kiranyaz and M. Gabbouj, "SAF-Net: Self-Attention Fusion Network for Myocardial Infarction Detection Using Multi-View Echocardiography," 2023 Computing in Cardiology (CinC), pp. 1-4, 2023, https://doi.org/10.22489/CinC.2023.240.
