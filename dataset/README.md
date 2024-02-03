@@ -24,4 +24,4 @@
 
 **The size of the ground-truth segmentation masks is 224x224 in order to have suitable input dimensions for many state-of-the-art deep network topologies.**
 
-### References
+### References:
