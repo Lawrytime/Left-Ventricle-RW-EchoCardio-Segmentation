@@ -36,7 +36,7 @@ The project leverages the UNet architecture, a popular choice for medical image 
 
 ## Dataset
 
-The project utilizes the HMC-QU Dataset of 2D A4C echocardiography recordings available at [HMC-QU Dataset](https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset?select=LV+Ground-truth+Segmentation+Masks). It is essential to ensure that all patient details in the dataset have been anonymized to protect privacy and comply with ethical guidelines.
+The project utilizes the HMC-QU Dataset of 2D A4C echocardiography recordings available at [HMC-QU Dataset](https://www.kaggle.com/datasets/aysendegerli/hmcqu-dataset?select=LV+Ground-truth+Segmentation+Masks). 
 
 ##  
 
