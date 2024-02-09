@@ -7,7 +7,7 @@
 ## 
 
 ## Content
-- [Projevt Overview](#overview)
+- [Project Overview](#overview)
 - [Key Features](#key)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
