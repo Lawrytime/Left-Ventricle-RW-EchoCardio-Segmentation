@@ -1,4 +1,4 @@
-# Left Ventricle Regional Wall Segmentation on Apical-4-Chamber (A4C) View 2D Echocardiography Frames
+# Left Ventricle Regional Wall Segmentation on Apical-4-Chamber (A4C) View 2D Echocardiography Recordings
 
 ##  
 
