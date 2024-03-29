@@ -75,7 +75,8 @@ The architecture comprises several key components:
 
 The model was trained using a combination of training and validation datasets. During training, several evaluation metrics were monitored.
 
-    Dice coefficient, IoU, Accuracy
+    Dice coefficient, IoU
+    Accuracy
     Precision, Recall, F1 score
 
 ##  
