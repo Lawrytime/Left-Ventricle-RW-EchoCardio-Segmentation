@@ -40,7 +40,7 @@ The project utilizes the HMC-QU Dataset of 2D A4C echocardiography recordings av
 
 ##  
 
-## Model Architecture
+## Model Architecture: U-NET
 
 This project employed a convolutional neural network (CNN) based on the UNet architecture. UNet is known for its effectiveness in image segmentation tasks and has been customized to suit the specific requirements as this task is semantic segmentation on video data.
 
